@@ -16,9 +16,9 @@
 	function create_testimonial() {
 	
 		$labels = array(
-			'name' => _x('Testimonial', 'Testimonial General Name', 'gdl_back_office'),
+			'name' => _x('见证', 'Testimonial General Name', 'gdl_back_office'),
 			'singular_name' => _x('Testimonial Item', 'Testimonial Singular Name', 'gdl_back_office'),
-			'add_new' => _x('Add New', 'Add New Testimonial Name', 'gdl_back_office'),
+			'add_new' => _x('添加', 'Add New Testimonial Name', 'gdl_back_office'),
 			'add_new_item' => __('Author Name', 'gdl_back_office'),
 			'edit_item' => __('Author Name', 'gdl_back_office'),
 			'new_item' => __('New Testimonial', 'gdl_back_office'),
@@ -49,7 +49,7 @@
 		register_taxonomy(
 			"testimonial-category", array("testimonial"), array(
 				"hierarchical" => true, 
-				"label" => "Categories", 
+				"label" => "分类", 
 				"singular_label" => "Categories", 
 				"rewrite" => true));
 		register_taxonomy_for_object_type('testimonial-category', 'testimonial');

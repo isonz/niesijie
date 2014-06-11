@@ -16,9 +16,9 @@
 	function create_gallery() {
 	
 		$labels = array(
-			'name' => _x('Gallery', 'Gallery General Name', 'gdl_back_office'),
+			'name' => _x('相册', 'Gallery General Name', 'gdl_back_office'),
 			'singular_name' => _x('Gallery Item', 'Gallery Singular Name', 'gdl_back_office'),
-			'add_new' => _x('Add New', 'Add New Gallery Name', 'gdl_back_office'),
+			'add_new' => _x('添加', 'Add New Gallery Name', 'gdl_back_office'),
 			'add_new_item' => __('Add New Gallery', 'gdl_back_office'),
 			'edit_item' => __('Edit Gallery', 'gdl_back_office'),
 			'new_item' => __('New Gallery', 'gdl_back_office'),

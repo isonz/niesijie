@@ -10,8 +10,8 @@
 
 	// constants
 	define('THEME_SHORT_NAME','thg'); 
-	define('THEME_FULL_NAME','The Gallery');
-	define('THEME_FILE_MANAGER','File Manager');
+	define('THEME_FULL_NAME','相册设置');
+	define('THEME_FILE_MANAGER','文件管理');
 	define('GOODLAYERS_PATH', get_template_directory_uri());
 	define('AJAX_URL', admin_url( 'admin-ajax.php' ));
 	define('FONT_SAMPLE_TEXT', 'Sample Font'); // sample font text of the goodlayers backoffice panel

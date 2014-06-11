@@ -17,9 +17,9 @@
 		$portfolio_translation = get_option(THEME_SHORT_NAME.'_gdl_portfolio_slug','portfolio');
 		
 		$labels = array(
-			'name' => _x('Portfolio', 'Portfolio General Name', 'gdl_back_office'),
+			'name' => _x('文件夹', 'Portfolio General Name', 'gdl_back_office'),
 			'singular_name' => _x('Portfolio Item', 'Portfolio Singular Name', 'gdl_back_office'),
-			'add_new' => _x('Add New', 'Add New Portfolio Name', 'gdl_back_office'),
+			'add_new' => _x('添加', 'Add New Portfolio Name', 'gdl_back_office'),
 			'add_new_item' => __('Add New Portfolio', 'gdl_back_office'),
 			'edit_item' => __('Edit Portfolio', 'gdl_back_office'),
 			'new_item' => __('New Portfolio', 'gdl_back_office'),
@@ -50,7 +50,7 @@
 		register_taxonomy(
 			"portfolio-category", array("portfolio"), array(
 				"hierarchical" => true,
-				"label" => "Categories", 
+				"label" => "分类", 
 				"singular_label" => "Categories", 
 				"rewrite" => true));
 		register_taxonomy_for_object_type('portfolio-category', 'portfolio');
@@ -58,7 +58,7 @@
 		register_taxonomy(
 			"portfolio-tag", array("portfolio"), array(
 				"hierarchical" => false, 
-				"label" => "Tag", 
+				"label" => "标签", 
 				"singular_label" => "Tag", 
 				"rewrite" => true));
 		register_taxonomy_for_object_type('portfolio-tag', 'portfolio');
