@@ -204,8 +204,8 @@
 		echo '<div class="clear"></div>';
 		
 		echo '<div class="gallery-nav-wrapper">';
-		echo '<div class="back-gallery-wrapper" data-ajax="gdl_get_gallery_data" data-root="' . $gal_root . '" data-dir="' . $back_dir . '" ><span class="back-gallery-icon"></span>Back</div>';
-		echo '<div class="close-gallery-wrapper" data-ajax="gdl_get_gallery_data" data-root="" data-dir="" ><span class="close-gallery-icon"></span>Close</div>';
+		echo '<div class="back-gallery-wrapper" data-ajax="gdl_get_gallery_data" data-root="' . $gal_root . '" data-dir="' . $back_dir . '" ><span class="back-gallery-icon"></span>返回</div>';
+		echo '<div class="close-gallery-wrapper" data-ajax="gdl_get_gallery_data" data-root="" data-dir="" ><span class="close-gallery-icon"></span>关闭</div>';
 		echo '</div>';
 		
 		echo '</div>';

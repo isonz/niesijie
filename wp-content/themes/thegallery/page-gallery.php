@@ -10,8 +10,8 @@ get_header();
 		<div id="slidecaption"></div>
 		<div id="slidecaption2"></div>
 		<div class="supersized-navigation">
-			<div id="prevslide"></div>
-			<div id="nextslide"></div>
+			<div id="prevslide" title="上一张"></div>
+			<div id="nextslide" title="下一张"></div>
 			<div class="clear"></div>
 		</div>
 	</div>
@@ -36,7 +36,7 @@ get_header();
 		$directory_list = get_directory_list(GAL_DEST . $gal_root, 'dir');
 		echo '<div class="bottom-image-slide1-wrapper" id="gdl-bottom-image-slide">';
 		
-		echo '<div id="bottom-image-slide-control" class="active"></div>';
+		echo '<div id="bottom-image-slide-control" class="active" title="隐藏/查看相册"></div>';
 
 		echo '<div class="gdl-bottom-image-slide-inner-wrapper" id="gdl-bottom-image-slide-inner-wrapper">';
 		echo '<div class="bottom-image-slide-overlay"></div>';
