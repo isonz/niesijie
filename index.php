@@ -16,7 +16,7 @@ session_start();
 $auths = isset($_SESSION['auths']) ? $_SESSION['auths'] : null;
 if(!$auths){
 	$pwd = isset($_POST['pwd']) ? $_POST['pwd'] : null;
-	if('45c57016ca2205021fbfa1c4051d7935'==md5(md5($pwd).'Katie.Nie')){
+	if('f12304aad89d8ff9eaa9dcdff8217526'==md5(md5($pwd).'Katie.Nie')){
 		$_SESSION['auths'] = 1;
 	}else{
 		include_once 'auth.html';
